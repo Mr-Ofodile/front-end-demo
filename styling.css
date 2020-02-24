@@ -1,0 +1,82 @@
+/*style like a boss done by chigozie ofodile*/
+/*Style body and add bground image and set it to cover*/
+body{
+    font-family: Arvo,serif;
+    background:url(http://freenaturestock.s3.amazonaws.com/232.jpg)no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*style the brand*/
+.logo{
+    height: 30px;
+}
+/*style the nav bars*/
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+    
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+/*sty*/
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+/*limit the width of the icons section*/
+
+.container{
+    max-width: 1000px;
+}
+/*style icons section using bootstrap grid system*/
+.bodyimage{
+    height: 100px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+.icons p{
+    font-size: 15px;
+}
+/*style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+.btn{
+    background-color: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
+/*style footer*/
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 0;
+}
+/*Use media Queries to change icon size in small devices*/
